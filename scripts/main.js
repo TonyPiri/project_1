@@ -34,7 +34,7 @@ myImage.onclick = function() {
 function setUserName() {
     var myName = prompt("Enter your name."); 
     localStorage.setItem("name", myName); 
-    myHeading.innerHTML = "Добро пожаловать, " + myName + "!";
+    myHeading.innerHTML = "Добро пожаловать, <br>" + myName + "!";
 }
 
 if(!localStorage.getItem("name")) {
@@ -42,7 +42,7 @@ if(!localStorage.getItem("name")) {
 }
 else {
     var storedName = localStorage.getItem("name"); 
-    myHeading.innerHTML = "Добро пожаловать, " + storedName +"!"; 
+    myHeading.innerHTML = "Добро пожаловать, <br>" + storedName +"!"; 
 }
 
 myButton.onclick = function() {
