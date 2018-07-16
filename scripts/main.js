@@ -1,11 +1,3 @@
-/*
-var myCar = new Object(); 
-
-myCar.make = "Huyndai"; 
-myCar.model = "Solaris"; 
-myCar.year = "2018";
-*/ 
-
 var myHeading = document.querySelector("h1"); 
 var myButton = document.querySelector("button");
 
